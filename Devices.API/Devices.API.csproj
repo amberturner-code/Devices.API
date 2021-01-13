@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.1" />
+    <PackageReference Include="NLog" Version="4.7.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Devices.API.Data\Devices.API.Data.csproj" />
+    <ProjectReference Include="..\Devices.API.Domain\Devices.API.Domain.csproj" />
+    <ProjectReference Include="..\Devices.API.Logging\Devices.API.Logging.csproj" />
+    <ProjectReference Include="..\Devices.API.Messaging.Receiver\Devices.API.Messaging.Receiver.csproj" />
+    <ProjectReference Include="..\Devices.API.Messaging.Sender\Devices.API.Messaging.Sender.csproj" />
+    <ProjectReference Include="..\Devices.API.Services\Devices.API.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

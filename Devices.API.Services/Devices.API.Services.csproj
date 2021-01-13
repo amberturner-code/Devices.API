@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Devices.API.Data\Devices.API.Data.csproj" />
+    <ProjectReference Include="..\Devices.API.Domain\Devices.API.Domain.csproj" />
+    <ProjectReference Include="..\Devices.API.Messaging.Sender\Devices.API.Messaging.Sender.csproj" />
+  </ItemGroup>
+
+</Project>
